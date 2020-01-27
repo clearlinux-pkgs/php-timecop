@@ -4,7 +4,7 @@
 #
 Name     : php-timecop
 Version  : 1.2.10
-Release  : 2
+Release  : 3
 URL      : https://pecl.php.net//get/timecop-1.2.10.tgz
 Source0  : https://pecl.php.net//get/timecop-1.2.10.tgz
 Summary  : No detailed summary available
@@ -26,6 +26,7 @@ lib components for the php-timecop package.
 
 %prep
 %setup -q -n timecop-1.2.10
+cd %{_builddir}/timecop-1.2.10
 
 %build
 export http_proxy=http://127.0.0.1:9/
@@ -44,4 +45,4 @@ make  %{?_smp_mflags}
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20180731/timecop.so
+/usr/lib64/extensions/no-debug-non-zts-20190902/timecop.so
