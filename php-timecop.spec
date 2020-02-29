@@ -4,7 +4,7 @@
 #
 Name     : php-timecop
 Version  : 1.2.10
-Release  : 3
+Release  : 4
 URL      : https://pecl.php.net//get/timecop-1.2.10.tgz
 Source0  : https://pecl.php.net//get/timecop-1.2.10.tgz
 Summary  : No detailed summary available
